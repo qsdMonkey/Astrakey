@@ -1,0 +1,10 @@
+body{
+    background-image: url("./img/Fond.jpg");
+    background-size: 2000px;
+}
+.navbar-custom {
+    background-color: #5930ff;
+}
+.navbar-text {
+    color: #ffffff;
+}
