@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hotel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,7 +41,7 @@
       <workItem from="1604177216333" duration="450000" />
       <workItem from="1604310328984" duration="4321000" />
       <workItem from="1604579788469" duration="60000" />
-      <workItem from="1605514881564" duration="1173000" />
+      <workItem from="1605514881564" duration="1937000" />
     </task>
     <servers />
   </component>
@@ -49,9 +49,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604579846797">
+    <state x="445" y="146" key="FileChooserDialogImpl" timestamp="1605531554222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604579846797" />
+    <state x="445" y="146" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605531554222" />
   </component>
 </project>
