@@ -1,3 +1,16 @@
+
+//--------------------------------------------------------------------------Connection a la base de données--------------------------------------------------------------------------\\
+<?php
+try {
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+
+} catch (Exception $e) {
+    die('Error');
+}
+
+
+?>
+//--------------------------------------------------------------------------Head HTML--------------------------------------------------------------------------\\
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +30,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
 </head>
-<body>
 
+
+//--------------------------------------------------------------------------Body HTML--------------------------------------------------------------------------\\
+<body>
+//--------------------------------------------------------------------------Debut sidebar--------------------------------------------------------------------------\\
 <div class="wrapper">
 
     <nav id="sidebar" >
@@ -31,19 +47,19 @@
                 <a href="home.php">Accueil</a>
             </li>
             <li>
-                <a href="magasin.php">Magasin</a>
+                <a href="#">Magasin</a>
             </li>
             <li class="active">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="rpg.php">RPG</a>
+                        <a href="#">RPG</a>
                     </li>
                     <li>
-                        <a href="fps.php">FPS</a>
+                        <a href="#">FPS</a>
                     </li>
                     <li>
-                        <a href="openworld.php">Open World</a>
+                        <a href="#">Open World</a>
                     </li>
                 </ul>
             </li>
@@ -71,13 +87,13 @@
                         <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
+                            <a class="nav-link" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
+                            <a class="nav-link" href="#">Magasin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
+                            <a class="nav-link" href="#">Panier</a>
                         </li>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
@@ -87,7 +103,10 @@
                 </div>
             </div>
         </nav>
+//--------------------------------------------------------------------------Fin side bar--------------------------------------------------------------------------\\
 
+
+//--------------------------------------------------------------------------Card--------------------------------------------------------------------------\\
         <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="img/callof.jpeg" alt="Card image cap">
@@ -102,7 +121,7 @@
 </div>
 
 
-
+//-------------------------------------------------------------------------- Début Script Sidebar--------------------------------------------------------------------------\\
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -117,7 +136,7 @@
         });
     });
 </script>
-
+//--------------------------------------------------------------------------Fin Script Sidebar--------------------------------------------------------------------------\\
 
 
 
