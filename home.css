@@ -79,7 +79,7 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #fff;
 }
 
 #sidebar ul p {
@@ -99,10 +99,23 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #5432c6;
+    background: #5c3dc6;
 }
-
-
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: #5c3dc6!important;
+    cursor: pointer;
+}
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #fff!important;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    transition-delay: 0.2s;
+}
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -142,7 +155,10 @@ a.article, a.article:hover {
     background: #5432c6 !important;
     color: #fff !important;
 }
+a {
+    color: #fff!important;
 
+}
 
 
 /* ---------------------------------------------------
