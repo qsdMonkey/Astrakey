@@ -1,100 +1,178 @@
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="game.css">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <title>Astrakey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-<div class="container-fluid">
-    <div class="content-wrapper">
-		<div class="item-container">
-			<div class="container">
-				<div class="col-md-12">
-					<div class="product col-md-3 service-image-left">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="game.css">
 
-						<center>
-							<img id="item-display" src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
-						</center>
-					</div>
 
-					<div class="container service1-items col-sm-2 col-md-2 pull-left">
-						<center>
-							<a id="item-1" class="service1-item">
-								<img src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
-							</a>
-							<a id="item-2" class="service1-item">
-								<img src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
-							</a>
-							<a id="item-3" class="service1-item">
-								<img src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
-							</a>
-						</center>
-					</div>
-				</div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
-				<div class="col-md-7">
-					<div class="product-title">Corsair GS600 600 Watt PSU</div>
-					<div class="product-desc">The Corsair Gaming Series GS600 is the ideal price/performance choice for mid-spec gaming PC</div>
-					<div class="product-rating"><i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star-o"></i> </div>
-					<hr>
-					<div class="product-price">$ 1234.00</div>
-					<div class="product-stock">In Stock</div>
-					<hr>
-					<div class="btn-group cart">
-						<button type="button" class="btn btn-success">
-							Add to cart
-						</button>
-					</div>
-					<div class="btn-group wishlist">
-						<button type="button" class="btn btn-danger">
-							Add to wishlist
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="col-md-12 product-info">
-					<ul id="myTab" class="nav nav-tabs nav_tabs">
+</head>
+<body>
 
-						<li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a></li>
-						<li><a href="#service-two" data-toggle="tab">PRODUCT INFO</a></li>
-						<li><a href="#service-three" data-toggle="tab">REVIEWS</a></li>
+<div class="wrapper">
 
-					</ul>
-				<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade in active" id="service-one">
+    <nav id="sidebar" >
+        <div class="sidebar-header">
+            <h3>ASTRAKEY</h3>
+        </div>
 
-							<section class="container product-info">
-								The Corsair Gaming Series GS600 power supply is the ideal price-performance solution for building or upgrading a Gaming PC. A single +12V rail provides up to 48A of reliable, continuous power for multi-core gaming PCs with multiple graphics cards. The ultra-quiet, dual ball-bearing fan automatically adjusts its speed according to temperature, so it will never intrude on your music and games. Blue LEDs bathe the transparent fan blades in a cool glow. Not feeling blue? You can turn off the lighting with the press of a button.
+        <ul class="list-unstyled components">
+            <li>
+                <a href="home.php">Accueil</a>
+            </li>
+            <li>
+                <a href="magasin.php">Magasin</a>
+            </li>
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="rpg.php">RPG</a>
+                    </li>
+                    <li>
+                        <a href="fps.php">FPS</a>
+                    </li>
+                    <li>
+                        <a href="openworld.php">Open World</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
-								<h3>Corsair Gaming Series GS600 Features:</h3>
-								<li>It supports the latest ATX12V v2.3 standard and is backward compatible with ATX12V 2.2 and ATX12V 2.01 systems</li>
-								<li>An ultra-quiet 140mm double ball-bearing fan delivers great airflow at an very low noise level by varying fan speed in response to temperature</li>
-								<li>80Plus certified to deliver 80% efficiency or higher at normal load conditions (20% to 100% load)</li>
-								<li>0.99 Active Power Factor Correction provides clean and reliable power</li>
-								<li>Universal AC input from 90~264V — no more hassle of flipping that tiny red switch to select the voltage input!</li>
-								<li>Extra long fully-sleeved cables support full tower chassis</li>
-								<li>A three year warranty and lifetime access to Corsair’s legendary technical support and customer service</li>
-								<li>Over Current/Voltage/Power Protection, Under Voltage Protection and Short Circuit Protection provide complete component safety</li>
-								<li>Dimensions: 150mm(W) x 86mm(H) x 160mm(L)</li>
-								<li>MTBF: 100,000 hours</li>
-								<li>Safety Approvals: UL, CUL, CE, CB, FCC Class B, TÜV, CCC, C-tick</li>
-							</section>
+    <div id="content">
 
-						</div>
-					<div class="tab-pane fade" id="service-two">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <div class="container-fluid">
 
-						<section class="container">
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                </button>
 
-						</section>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
 
-					</div>
-					<div class="tab-pane fade" id="service-three">
+                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
-					</div>
-				</div>
-				<hr>
-			</div>
-		</div>
-	</div>
-</div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="home.php">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="magasin.php">Magasin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="panier.php">Panier</a>
+                        </li>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
+                            <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+            <div class="content-wrapper">
+        		<div class="item-container">
+        			<div class="container">
+        				<div class="col-md-12">
+        					<div class="product col-md-3 service-image-left">
+
+        						<center>
+        							<img id="item-display" src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
+        						</center>
+        					</div>
+
+        				</div>
+
+        				<div class="col-md-7">
+        					<div class="product-title">Corsair GS600 600 Watt PSU</div>
+        					<div class="product-desc">The Corsair Gaming Series GS600 is the ideal price/performance choice for mid-spec gaming PC</div>
+        					<div class="product-rating"><i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star-o"></i> </div>
+        					<hr>
+        					<div class="product-price">$ 1234.00</div>
+        					<div class="product-stock">In Stock</div>
+        					<hr>
+        					<div class="btn-group cart">
+        						<button type="button" class="btn btn-success">
+        							Add to cart
+        						</button>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="container-fluid">
+        			<div class="col-md-12 product-info">
+        					<ul id="myTab" class="nav nav-tabs nav_tabs">
+
+        						<li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a></li>
+
+        					</ul>
+        				<div id="myTabContent" class="tab-content">
+        						<div class="tab-pane fade in active" id="service-one">
+
+        							<section class="container product-info">
+
+
+
+        						</div>
+        					<div class="tab-pane fade" id="service-two">
+
+        						<section class="container">
+
+        						</section>
+
+        					</div>
+        					<div class="tab-pane fade" id="service-three">
+
+        					</div>
+        				</div>
+        				<hr>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+            $(this).toggleClass('active');
+        });
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
