@@ -205,6 +205,9 @@ a {
     margin: 5px auto;
 }
 
+.card-deck {
+    max-width: 15%;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES

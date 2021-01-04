@@ -47,7 +47,7 @@
       <workItem from="1604310328984" duration="4321000" />
       <workItem from="1604579788469" duration="60000" />
       <workItem from="1605514881564" duration="1937000" />
-      <workItem from="1609746560170" duration="2805000" />
+      <workItem from="1609746560170" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="update color 1">
       <created>1609748391998</created>
@@ -63,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609748897088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update color 2">
+      <created>1609749400773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609749400773</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update color 3">
+      <created>1609749582238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609749582238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,13 +95,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update color 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update color 1" />
+    <MESSAGE value="update color 2" />
+    <MESSAGE value="update color 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update color 3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609748896130">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609749581299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609748896130" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749581299" />
     <state x="-101" y="-27" width="1736" height="856" key="DiffContextDialog" timestamp="1609748270766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -108,9 +124,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748441228" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609748900749">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609749583674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609748900749" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749583674" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609749628529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749628529" />
   </component>
 </project>
