@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2432685b-c4d4-4816-8d3a-dba3f23b8ae5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrakey.sql" beforeDir="false" afterPath="$PROJECT_DIR$/astrakey.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <workItem from="1604310328984" duration="4321000" />
       <workItem from="1604579788469" duration="60000" />
       <workItem from="1605514881564" duration="1937000" />
-      <workItem from="1609746560170" duration="6561000" />
+      <workItem from="1609746560170" duration="7973000" />
     </task>
     <task id="LOCAL-00001" summary="update color 1">
       <created>1609748391998</created>
@@ -82,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609752934268</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bdd">
+      <created>1609754369654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609754369654</updated>
+    </task>
+    <task id="LOCAL-00007" summary="php">
+      <created>1609754468658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609754468658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="php">
+      <created>1609754553621</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609754553621</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,13 +124,15 @@
     <MESSAGE value="update color 2" />
     <MESSAGE value="update color 3" />
     <MESSAGE value="update card 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update card 1" />
+    <MESSAGE value="bdd" />
+    <MESSAGE value="php" />
+    <option name="LAST_COMMIT_MESSAGE" value="php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609752933356">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609754552672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609752933356" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609754552672" />
     <state x="-101" y="-27" width="1736" height="856" key="DiffContextDialog" timestamp="1609748270766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -130,13 +153,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748441228" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609752981341">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609754561250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609752981341" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609749628529">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609754561250" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609754571442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749628529" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609754571442" />
   </component>
 </project>
