@@ -19,87 +19,7 @@
 </head>
 <body>
 
-<div class="wrapper">
 
-    <nav id="sidebar" >
-        <div class="sidebar-header">
-            <h3>ASTRAKEY</h3>
-        </div>
-
-        <ul class="list-unstyled components">
-            <li>
-                <a href="home.php">Acceuil</a>
-            </li>
-            <li>
-                <a href="magasin.php">Magasin</a>
-            </li>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="rpg.php">RPG</a>
-                    </li>
-                    <li>
-                        <a href="fps.php">FPS</a>
-                    </li>
-                    <li>
-                        <a href="openworld.php">Open World</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-    <div id="content">
-
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-            <div class="container-fluid">
-
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ml-auto">
-
-                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
-                        </li>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                            <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
-                        </form>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="img/callof.jpeg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text"></p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Acheter</button>
-    </div>
-  </div>
-</div>
 
 
 
@@ -108,17 +28,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-</script>
-
-
 
 
 
