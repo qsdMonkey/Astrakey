@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2432685b-c4d4-4816-8d3a-dba3f23b8ae5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
       <workItem from="1604310328984" duration="4321000" />
       <workItem from="1604579788469" duration="60000" />
       <workItem from="1605514881564" duration="1937000" />
-      <workItem from="1609746560170" duration="5298000" />
+      <workItem from="1609746560170" duration="6561000" />
     </task>
     <task id="LOCAL-00001" summary="update color 1">
       <created>1609748391998</created>
@@ -77,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609749582238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update card 1">
+      <created>1609752934268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609752934268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,13 +102,14 @@
     <MESSAGE value="update color 1" />
     <MESSAGE value="update color 2" />
     <MESSAGE value="update color 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update color 3" />
+    <MESSAGE value="update card 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update card 1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609749581299">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1609752933356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749581299" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609752933356" />
     <state x="-101" y="-27" width="1736" height="856" key="DiffContextDialog" timestamp="1609748270766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -112,22 +118,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="445" y="146" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605531554222" />
-    <state x="184" y="86" key="MergeDialog" timestamp="1609748414055">
+    <state x="184" y="86" key="MergeDialog" timestamp="1609752960966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748414055" />
-    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1609748414061">
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609752960966" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1609752965138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748414061" />
+    <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609752965138" />
     <state x="795" y="240" key="RollbackChangesDialog" timestamp="1609748441228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748441228" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609749583674">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609752981341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609749583674" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609752981341" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609749628529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
