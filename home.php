@@ -1,6 +1,7 @@
 
 <!--------------------------------------------------------------------------Connection a la base de données-------------------------------------------------------------------------->
 <?php
+session_start();
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
 
@@ -107,12 +108,17 @@ try {
 
 
 <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
-        <div class="card-deck">
+<?php
+   $getAll = $bdd->query('SELECT * FROM `games`');
+
+  foreach ($getAll->fetchAll() as $game) {
+   ?>
+  <div class="cardAlignement shadow-custom">
   <div class="card">
-    <img class="card-img-top" src="img/callof.jpeg" alt="Card image cap">
+    <img class="card-img-top" src="<?php echo $game["img"];?> " alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text"></p>
+      <h5 class="card-title navbar-text"><?php echo $game["name"];?></h5>
+      <h5 class="card-title texte-price"><?php echo $game["price"]." €";?></h5>
     </div>
     <div class="card-footer">
       <button type="button" class="btn btn-primary">Acheter</button>
@@ -120,6 +126,9 @@ try {
   </div>
 </div>
 
+<?php
+}
+?>
 
 <!-------------------------------------------------------------------------- Début Script Sidebar-------------------------------------------------------------------------->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
