@@ -2,7 +2,7 @@
 <!--------------------------------------------------------------------------Connection a la base de données-------------------------------------------------------------------------->
 <?php
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'toor');
 
 } catch (Exception $e) {
     die('Error');
