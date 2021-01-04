@@ -28,7 +28,7 @@
 
         <ul class="list-unstyled components">
             <li>
-                <a href="home.php">Acceuil</a>
+                <a href="home.php">Accueil</a>
             </li>
             <li>
                 <a href="magasin.php">Magasin</a>
