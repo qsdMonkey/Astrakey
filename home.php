@@ -3,7 +3,7 @@
 <?php
 session_start();
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'toor');
 
 } catch (Exception $e) {
     die('Error');
@@ -48,19 +48,19 @@ try {
                 <a href="home.php">Accueil</a>
             </li>
             <li>
-                <a href="#">Magasin</a>
+                <a href="magasin.php">Magasin</a>
             </li>
             <li class="active">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
                 <ul class="collapse list-unstyled" id="homeSubmenu">
                     <li>
-                        <a href="#">RPG</a>
+                        <a href="rpg.php">RPG</a>
                     </li>
                     <li>
-                        <a href="#">FPS</a>
+                        <a href="fps.php">FPS</a>
                     </li>
                     <li>
-                        <a href="#">Open World</a>
+                        <a href="openworld.php">Open World</a>
                     </li>
                 </ul>
             </li>
@@ -87,14 +87,8 @@ try {
                         <img src="./img/Logo.png" alt="logo" style="height: 70px" >
                         <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil</a>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Magasin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Panier</a>
+                            <a class="nav-link" href="panier.php">Panier</a>
                         </li>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
