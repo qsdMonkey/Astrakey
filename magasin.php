@@ -1,3 +1,14 @@
+<?php
+session_start();
+try {
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+
+} catch (Exception $e) {
+    die('Error');
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,18 +99,27 @@
             </div>
         </nav>
 
-        <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="img/callof.jpeg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text"></p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Acheter</button>
-    </div>
-  </div>
-</div>
+        <?php
+        $getAll = $bdd->query('SELECT * FROM `games`');
+
+        foreach ($getAll->fetchAll() as $game) {
+            ?>
+            <div class="cardAlignement shadow-custom">
+                <div class="card">
+                    <img class="card-img-top" src="<?php echo $game["img"];?> " alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title navbar-text"><?php echo $game["name"];?></h5>
+                        <h5 class="card-title texte-price"><?php echo $game["price"]." €";?></h5>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary">Acheter</button>
+                    </div>
+                </div>
+            </div>
+
+            <?php
+        }
+        ?>
 
 
 

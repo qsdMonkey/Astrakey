@@ -3,7 +3,7 @@
 <?php
 session_start();
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'toor');
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
 
 } catch (Exception $e) {
     die('Error');
@@ -103,7 +103,7 @@ try {
 
 <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
 <?php
-   $getAll = $bdd->query('SELECT * FROM `games`');
+   $getAll = $bdd->query('SELECT * FROM `games` LIMIT 5');
 
   foreach ($getAll->fetchAll() as $game) {
    ?>
