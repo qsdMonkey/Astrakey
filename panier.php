@@ -72,16 +72,8 @@
 
                         <img src="./img/Logo.png" alt="logo" style="height: 70px" >
                         <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
-                        </li>
+                        <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
+                        
                         <form class="form-inline">
                             <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
                             <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
