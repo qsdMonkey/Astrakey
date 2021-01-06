@@ -97,7 +97,7 @@
         session_start();
         $connect = mysqli_connect("localhost", "root", "root", "astrakey");
 
-        if(isset($_POST["add_to_cart"]))
+        if(isset($_POST["payez"]))
         {
         	if(isset($_SESSION["shopping_cart"]))
         	{
@@ -186,7 +186,32 @@
 
         						<input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>" />
 
-        						<input type="submit" name="add_to_cart" style="margin-top:5px;" class="btn btn-success" value="Add to Cart" />
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="polon@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Jeux">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<table>
+<tr><td><input type="hidden" name="on0" value="Jeux">Jeux</td></tr><tr><td><select name="os0">
+	<option value="Call of duty">Call of duty €59.00 EUR</option>
+	<option value="Cyberpunk">Cyberpunk €33.00 EUR</option>
+	<option value="Minecraft">Minecraft €20.00 EUR</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="option_select0" value="Call of duty">
+<input type="hidden" name="option_amount0" value="59.00">
+<input type="hidden" name="option_select1" value="Cyberpunk">
+<input type="hidden" name="option_amount1" value="33.00">
+<input type="hidden" name="option_select2" value="Minecraft">
+<input type="hidden" name="option_amount2" value="20.00">
+<input type="hidden" name="option_index" value="0">
+<input type="image" src="https://www.paypalobjects.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+</form>
+
 
         					</div>
         				</form>
