@@ -8,6 +8,9 @@ body{
 .navbar-text {
     color: #ffffff!important;
 }
+.border-custom{
+    margin: 10px!important;
+}
 .center-text{
     align-items: center;
 }
