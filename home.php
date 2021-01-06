@@ -40,7 +40,7 @@ try {
 
     <nav id="sidebar" >
         <div class="sidebar-header">
-            <h3>ASTRAKEY</h3>
+            <img src="./img/Astrakey.png" alt="logo" style="height: 60px" >
         </div>
 
         <ul class="list-unstyled components">
@@ -82,10 +82,9 @@ try {
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                    <h4 class="navbar-text center-text">Les jeux du moment !</h4>
                     <ul class="nav navbar-nav ml-auto">
-
-                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
                         <li class="nav-item">
                             <a class="nav-link" href="panier.php">Panier</a>

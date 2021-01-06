@@ -1,3 +1,17 @@
+
+<!--------------------------------------------------------------------------Connection a la base de données-------------------------------------------------------------------------->
+<?php
+session_start();
+try {
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'root');
+
+} catch (Exception $e) {
+    die('Error');
+}
+
+
+?>
+<!--------------------------------------------------------------------------Head HTML-------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +31,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
 </head>
-<body>
 
+
+<!--------------------------------------------------------------------------Body HTML-------------------------------------------------------------------------->
+<body>
+<!--------------------------------------------------------------------------Debut sidebar-------------------------------------------------------------------------->
 <div class="wrapper">
 
     <nav id="sidebar" >
@@ -70,12 +87,6 @@
                         <img src="./img/Logo.png" alt="logo" style="height: 70px" >
                         <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="panier.php">Panier</a>
                         </li>
@@ -87,37 +98,48 @@
                 </div>
             </div>
         </nav>
-
-        <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="img/callof.jpeg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text"></p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Acheter</button>
-    </div>
-  </div>
-</div>
+        <!--------------------------------------------------------------------------Fin side bar-------------------------------------------------------------------------->
 
 
+        <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
+        <?php
+        $getAll = $bdd->query('SELECT * FROM `games` WHERE `id_genre`=1');
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        foreach ($getAll->fetchAll() as $game) {
+            ?>
+            <div class="cardAlignement shadow-custom">
+                <div class="card">
+                    <img class="card-img-top" src="<?php echo $game["img"];?> " alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title navbar-text"><?php echo $game["name"];?></h5>
+                        <h5 class="card-title texte-price"><?php echo $game["price"]." €";?></h5>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary">Acheter</button>
+                    </div>
+                </div>
+            </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <?php
+        }
+        ?>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <!-------------------------------------------------------------------------- Début Script Sidebar-------------------------------------------------------------------------->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
+                });
+            });
+        </script>
+        <!--------------------------------------------------------------------------Fin Script Sidebar-------------------------------------------------------------------------->
 
 
 

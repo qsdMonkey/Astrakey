@@ -1,7 +1,9 @@
+
+<!--------------------------------------------------------------------------Connection a la base de données-------------------------------------------------------------------------->
 <?php
 session_start();
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'root');
 
 } catch (Exception $e) {
     die('Error');
@@ -9,6 +11,7 @@ try {
 
 
 ?>
+<!--------------------------------------------------------------------------Head HTML-------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,8 +31,11 @@ try {
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
 </head>
-<body>
 
+
+<!--------------------------------------------------------------------------Body HTML-------------------------------------------------------------------------->
+<body>
+<!--------------------------------------------------------------------------Debut sidebar-------------------------------------------------------------------------->
 <div class="wrapper">
 
     <nav id="sidebar" >
@@ -81,12 +87,6 @@ try {
                         <img src="./img/Logo.png" alt="logo" style="height: 70px" >
                         <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="panier.php">Panier</a>
                         </li>
@@ -98,7 +98,10 @@ try {
                 </div>
             </div>
         </nav>
+        <!--------------------------------------------------------------------------Fin side bar-------------------------------------------------------------------------->
 
+
+        <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
         <?php
         $getAll = $bdd->query('SELECT * FROM `games`');
 
@@ -121,23 +124,22 @@ try {
         }
         ?>
 
+        <!-------------------------------------------------------------------------- Début Script Sidebar-------------------------------------------------------------------------->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-</script>
-
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
+                });
+            });
+        </script>
+        <!--------------------------------------------------------------------------Fin Script Sidebar-------------------------------------------------------------------------->
 
 
 

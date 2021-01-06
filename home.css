@@ -6,7 +6,10 @@ body{
     background-color:#694ad4;
 }
 .navbar-text {
-    color: #ffffff;
+    color: #ffffff!important;
+}
+.center-text{
+    align-items: center;
 }
 .texte-price{
     color: #ffff00;
@@ -43,7 +46,7 @@ a, a:hover, a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #694ad4;
+    background: #1f0968;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -73,11 +76,10 @@ a, a:hover, a:focus {
     perspective: 1500px;
 }
 
-
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #694ad4;
+    background: #3f278f;
     color: #fff;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
@@ -90,7 +92,7 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background:#5938ce;
+    background:#4b2fa7;
 }
 
 #sidebar ul.components {
@@ -115,12 +117,12 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #694ad4;
+    background: #3f278f;
 }
 #sidebarCollapse {
     width: 40px;
     height: 40px;
-    background: #694ad4!important;
+    background: #1f0968!important;
     cursor: pointer;
 }
 #sidebarCollapse span {
@@ -147,7 +149,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #5938ce;
+    background: #4b2fa7;
 }
 .btn-primary {
     color: #fff;
