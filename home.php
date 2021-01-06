@@ -111,9 +111,11 @@ try {
       <h5 class="card-title navbar-text"><?php echo $game["name"];?></h5>
       <h5 class="card-title texte-price"><?php echo $game["price"]." €";?></h5>
     </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-primary">Acheter</button>
-    </div>
+    <form class="" action="game.php" method="post">
+      <div class="card-footer">
+        <button type="submit" href="game.php" class="btn btn-primary">Acheter</button>
+      </div>
+    </form>
   </div>
 </div>
 
