@@ -26,7 +26,7 @@
 
     <nav id="sidebar" >
         <div class="sidebar-header">
-            <h3>ASTRAKEY</h3>
+            <img src="./img/Astrakey.png" alt="logo" style="height: 60px" >
         </div>
 
         <ul class="list-unstyled components">
@@ -68,20 +68,11 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                    <h4 class="navbar-text center-text">Panier !</h4>
                     <ul class="nav navbar-nav ml-auto">
+                        <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
 
-                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
-                        </li>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
                             <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
@@ -90,7 +81,6 @@
                 </div>
             </div>
         </nav>
-
 
 
 

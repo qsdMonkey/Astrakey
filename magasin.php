@@ -83,7 +83,7 @@ try {
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                    <h4 class="navbar-text center-text">Les jeux du moment !</h4>
+                    <h4 class="navbar-text center-text">Tout les jeux !</h4>
                     <ul class="nav navbar-nav ml-auto">
                         <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
 

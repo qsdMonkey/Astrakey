@@ -22,74 +22,64 @@
 </head>
 <body>
 
-<div class="wrapper">
+  <div class="wrapper">
 
-    <nav id="sidebar" >
-        <div class="sidebar-header">
-            <h3>ASTRAKEY</h3>
-        </div>
+      <nav id="sidebar" >
+          <div class="sidebar-header">
+              <img src="./img/Astrakey.png" alt="logo" style="height: 60px" >
+          </div>
 
-        <ul class="list-unstyled components">
-            <li>
-                <a href="home.php">Accueil</a>
-            </li>
-            <li>
-                <a href="magasin.php">Magasin</a>
-            </li>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="rpg.php">RPG</a>
-                    </li>
-                    <li>
-                        <a href="fps.php">FPS</a>
-                    </li>
-                    <li>
-                        <a href="openworld.php">Open World</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+          <ul class="list-unstyled components">
+              <li>
+                  <a href="home.php">Accueil</a>
+              </li>
+              <li>
+                  <a href="magasin.php">Magasin</a>
+              </li>
+              <li class="active">
+                  <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Genre</a>
+                  <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                          <a href="rpg.php">RPG</a>
+                      </li>
+                      <li>
+                          <a href="fps.php">FPS</a>
+                      </li>
+                      <li>
+                          <a href="openworld.php">Open World</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
 
-    <div id="content">
+      <div id="content">
 
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-            <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+              <div class="container-fluid">
 
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify"></i>
-                </button>
+                  <button type="button" id="sidebarCollapse" class="navbar-btn">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </button>
+                  <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-align-justify"></i>
+                  </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ml-auto">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                      <ul class="nav navbar-nav ml-auto">
+                          <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
 
-                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="magasin.php">Magasin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
-                        </li>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                            <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
-                        </form>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                          <form class="form-inline">
+                              <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
+                              <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
+                          </form>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
 
 
         <div class="container-fluid">
