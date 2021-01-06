@@ -90,7 +90,7 @@
         					<div class="product col-md-3 service-image-left">
 
         						<center>
-        							<img id="item-display" src="img/callof.jpeg" alt=""></img>
+        							<img id="item-display" src="img/callof.jpeg" alt="jeux"></img>
         						</center>
         					</div>
 
