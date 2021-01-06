@@ -171,6 +171,8 @@
         					while($row = mysqli_fetch_array($result))
         					{
         				?>
+
+
         			<div class="col-md-4">
         				<form method="post" action="index.php?action=add&id=<?php echo $row["id"]; ?>">
         					<div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;" align="center">
@@ -189,7 +191,7 @@
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="polon@gmail.com">
-<input type="hidden" name="lc" value="US">
+<input type="hidden" name="lc" value="EU">
 <input type="hidden" name="item_name" value="Jeux">
 <input type="hidden" name="button_subtype" value="services">
 <input type="hidden" name="no_note" value="0">
