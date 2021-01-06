@@ -100,7 +100,7 @@ try {
 
         <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
         <?php
-        $getAll = $bdd->query('SELECT * FROM `games` LIMIT 5');
+        $getAll = $bdd->query('SELECT * FROM `games` WHERE `id_genre`=1');
 
         foreach ($getAll->fetchAll() as $game) {
             ?>
