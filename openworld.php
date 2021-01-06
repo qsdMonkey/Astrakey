@@ -40,7 +40,7 @@ try {
 
     <nav id="sidebar" >
         <div class="sidebar-header">
-            <h3>ASTRAKEY</h3>
+            <img src="./img/Astrakey.png" alt="logo" style="height: 60px" >
         </div>
 
         <ul class="list-unstyled components">
@@ -82,14 +82,11 @@ try {
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                    <h4 class="navbar-text center-text">Les jeux du moment !</h4>
                     <ul class="nav navbar-nav ml-auto">
+                        <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
 
-                        <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                        <img src="./img/Astrakey.png" alt="logo" style="height: 80px" >
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="panier.php">Panier</a>
-                        </li>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
                             <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
@@ -103,7 +100,7 @@ try {
 
         <!--------------------------------------------------------------------------Card-------------------------------------------------------------------------->
         <?php
-        $getAll = $bdd->query('SELECT * FROM `games` WHERE `id_genre`=2');
+        $getAll = $bdd->query('SELECT * FROM `games` LIMIT 5');
 
         foreach ($getAll->fetchAll() as $game) {
             ?>
