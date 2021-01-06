@@ -186,9 +186,9 @@ a {
     float: left;
     margin-left: 30px;
     margin-top: 15px;
-    max-width: 15%;
-    max-height: 43%;
-    min-height: 43%;
+    max-width: 200px;
+    max-height: 493px;
+    min-height: 493px;
     text-align: center;
 }
 
