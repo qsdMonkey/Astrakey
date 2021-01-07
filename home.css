@@ -196,6 +196,29 @@ a {
     min-height: 493px;
     text-align: center;
 }
+.col-md-7{
+    background-color: #5938ce;
+}
+.product-title{
+    color: white ;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.product-desc{
+    color: white;
+}
+
+.product-price{
+    font-size: 20px;
+    color: white!important;
+}
+
+.product-stock{
+    font-size: 20px;
+    color: #2FEE15;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE

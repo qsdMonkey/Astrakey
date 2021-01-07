@@ -13,7 +13,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="home.css">
 
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -68,16 +68,17 @@
                   </button>
 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <img src="./img/Logo.png" alt="logo" style="height: 70px" >
-                      <ul class="nav navbar-nav ml-auto">
-                          <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
+                    <img src="./img/Logo.png" alt="logo" style="height: 70px" >
+                    
+                    <ul class="nav navbar-nav ml-auto">
+                        <a class="border-custom" href="panier.php"><img src="./img/panier.png" alt="logo" height="40px" width="40px"></a>
 
-                          <form class="form-inline">
-                              <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                              <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
-                          </form>
-                      </ul>
-                  </div>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 navbar-text" type="search" placeholder="Rechercher" aria-label="Rechercher">
+                            <button class=" btn btn-outline-light my-2 my-sm-0 " type="submit">Rechercher</button>
+                        </form>
+                    </ul>
+                </div>
               </div>
           </nav>
 
@@ -90,7 +91,7 @@
         					<div class="product col-md-3 service-image-left">
 
         						<center>
-        							<img id="item-display" src="img/callof.jpeg" alt="jeux"></img>
+        							<img id="item-display" src="img/callof.jpeg" alt="" witdh="130px" height="350px"></img>
         						</center>
         					</div>
 
@@ -98,24 +99,35 @@
 
         				<div class="col-md-7">
         					<div class="product-title">Call of duty black ops cold war</div>
-        					<div class="product-desc">Le meilleur call of depuis longtemps ! </div>
+        					
         					<hr>
-        					<div class="product-price">34 €</div>
-        					<div class="product-stock">En stock</div>
-        					<hr>
-        					<div class="btn-group cart">
+        					<div class="product-desc">Alors que Call of Duty : Black Ops 4 était un jeu de tir
+                                 multijoueur, le cinquième volet de la sous-série COD de Treyarch comportera un
+                                  volet solo complémentaire. Achetez Call of Duty: Black Ops Cold War Green Gift
+                                   pour assister et pour participer aux événements de la guerre froide des années
+                                    1980. Certaines scènes se concentrent sur la guerre du Vietnam. Les personnages
+                                     principaux des précédents jeux COD Cold War comme Mason, Woods et Hudson font
+                                      leur retour. Des personnages historiques réels comme le 40e président américain
+                                       Ronald Regan font également leur première apparition, tandis que le joueur
+                                        principal est entièrement personnalisable pour une totale immersion ! </div>
+                            <hr>
+                            <div class="product-price">34 €</div>
+                            <div class="product-stock"><b>En stock</b></div>
+                            <br/>
+        					<div class="border-custom">
         						<button type="button" class="btn btn-success">
         							Ajouter au panier
-        						</button>
+                                </button>
+                                <br/>
+                                
         					</div>
         				</div>
         			</div>
         		</div>
-        				<hr>
+        				
         			</div>
         		</div>
-        	</div>
-        </div>
+        	
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
