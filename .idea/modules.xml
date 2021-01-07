@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Astrakey.iml" filepath="$PROJECT_DIR$/.idea/Astrakey.iml" />
       <module fileurl="file://$PROJECT_DIR$/../TP_Hotel_2020_PromeoProject/.idea/TP_Hotel_2020_PromeoProject.iml" filepath="$PROJECT_DIR$/../TP_Hotel_2020_PromeoProject/.idea/TP_Hotel_2020_PromeoProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../twitter/.idea/twiter.iml" filepath="$PROJECT_DIR$/../twitter/.idea/twiter.iml" />
     </modules>
   </component>
 </project>

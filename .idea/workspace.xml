@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2432685b-c4d4-4816-8d3a-dba3f23b8ae5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Astrakey.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Astrakey.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fps.php" beforeDir="false" afterPath="$PROJECT_DIR$/fps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magasin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magasin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openworld.php" beforeDir="false" afterPath="$PROJECT_DIR$/openworld.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpg.php" beforeDir="false" afterPath="$PROJECT_DIR$/rpg.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP_Hotel_2020_PromeoProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twitter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +58,7 @@
       <workItem from="1609774776512" duration="60000" />
       <workItem from="1609919269496" duration="622000" />
       <workItem from="1610006530174" duration="796000" />
+      <workItem from="1610031070940" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="update color 1">
       <created>1609748391998</created>
@@ -208,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-101" y="-27" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609748270766" />
-    <state x="445" y="146" key="FileChooserDialogImpl" timestamp="1609757693780">
+    <state x="445" y="146" key="FileChooserDialogImpl" timestamp="1610032729559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="445" y="146" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609757693780" />
+    <state x="445" y="146" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610032729559" />
     <state x="184" y="86" key="MergeDialog" timestamp="1609764554346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,5 +241,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610009573430" />
+    <state x="306" y="155" width="1893" height="1027" key="dock-window-1" timestamp="1610032125375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="306" y="155" width="1893" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1610032125375" />
   </component>
 </project>
