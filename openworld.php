@@ -3,7 +3,7 @@
 <?php
 session_start();
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=astrakey', 'root', 'root');
 
 } catch (Exception $e) {
     die('Error');
